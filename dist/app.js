@@ -10703,11 +10703,9 @@ return jQuery;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-
-$(document).ready(function () {
-  alert("N");
-});
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"); // $(document).ready(function () {
+//   alert("N")
+// });
 
 /***/ }),
 
@@ -10729,8 +10727,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\sanin\Desktop\boolean\prova-2\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\sanin\Desktop\boolean\prova-2\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\Users\sanin\Desktop\boolean\php-ajax-dischi\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\sanin\Desktop\boolean\php-ajax-dischi\src\app.scss */"./src/app.scss");
 
 
 /***/ })

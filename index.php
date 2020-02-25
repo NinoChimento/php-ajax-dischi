@@ -1,3 +1,7 @@
+<?php include __DIR__ . "/database.php";
+  var_dump($raccolta)
+ ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -9,6 +13,9 @@
   <body>
     <div class="warap-cd">
       <div class="cd">
+        <?php foreach ($raccolta as  $cd) {
+          echo $cd["title"];
+        } ?>
         <img src="" alt="">
         <h2></h2>
         <h4></h4>
