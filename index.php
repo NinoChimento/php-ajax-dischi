@@ -10,12 +10,17 @@
     <title></title>
   </head>
   <body>
-    <div class="warap-cd">
+    <div class="wrap-cd">
+      <?php foreach ($raccolta as $key => $cd) { ?>
       <div class="cd">
-        <?php foreach ($raccolta as $key => $cd) { ?>
+
           <img src=" <?php echo $cd["poster"]; ?>" alt="">
-        <?php } ?>
+          <h2> <?php echo $cd["title"]; ?></h2>
+          <h4><?php echo $cd["author"]; ?></h4>
+          <h6><?php echo $cd["year"]; ?></h6>
+
       </div>
+        <?php } ?>
     </div>
     <script src="dist/app.js" charset="utf-8"></script>
   </body>

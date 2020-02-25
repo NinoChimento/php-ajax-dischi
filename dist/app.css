@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: grey;
+  color: white;
+}
+
+.wrap-cd {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.cd {
+  width: 30%;
+  text-align: center;
+  background-color: black;
+  margin: 20px;
+}
+
+.cd h2 {
+  margin: 10px;
+}
+
+.cd h6 {
+  margin: 10px;
+}
+
+.cd img {
+  height: 300px;
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 0;
+}
+
