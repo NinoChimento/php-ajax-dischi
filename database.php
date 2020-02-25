@@ -36,5 +36,23 @@ $raccolta = [
     'year' => 2000,
     'poster' => 'https://img.discogs.com/qPBLPTcPHHt5zgT6LU58jc9XOJg=/fit-in/600x592/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1209145-1266073228.jpeg.jpg'
   ],
+  [
+    'title' => 'Super Hits',
+    'author' => 'Giorgio Vanni',
+    'year' => 2016,
+    'poster' => 'https://digital24.it/56084/giorgio-vanni-giorgio-vanni-super-hits-2-cd.jpg'
+  ],
+  [
+    'title' => 'Dark Side of The moon',
+    'author' => 'Pink Floyd',
+    'year' => 1981,
+    'poster' => 'https://img.ibs.it/images/5099902895529_0_306_0_75.jpg'
+  ],
+  [
+    'title' => 'Master of Puppets',
+    'author' => 'Metallica',
+    'year' => 1985,
+    'poster' => 'https://img.discogs.com/HSuP6Uqx1DYkX7V9h3o2cC_AV6o=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1549636-1265948094.jpeg.jpg'
+  ],
 ]
  ?>
