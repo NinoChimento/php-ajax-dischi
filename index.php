@@ -1,5 +1,4 @@
 <?php include __DIR__ . "/database.php";
-  var_dump($raccolta)
  ?>
 
 <!DOCTYPE html>
@@ -13,13 +12,9 @@
   <body>
     <div class="warap-cd">
       <div class="cd">
-        <?php foreach ($raccolta as  $cd) {
-          echo $cd["title"];
-        } ?>
-        <img src="" alt="">
-        <h2></h2>
-        <h4></h4>
-        <h6></h6>
+        <?php foreach ($raccolta as $key => $cd) { ?>
+          <img src=" <?php echo $cd["poster"]; ?>" alt="">
+        <?php } ?>
       </div>
     </div>
     <script src="dist/app.js" charset="utf-8"></script>
