@@ -1,0 +1,12 @@
+@mixin disco {
+  width: 30%;
+  text-align: center;
+  background-color: black;
+  margin:20px;
+}
+@mixin img-disco {
+  height: 300px;
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 0;
+}
