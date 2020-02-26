@@ -10735,6 +10735,19 @@ $(document).ready(function () {
   $("select").change(function functionName() {
     var autore = $("select").val();
     console.log(autore);
+    $.ajax({
+      url: "http://localhost/php-ajax-dischi/database2.php",
+      method: "GET",
+      data: {
+        artist: "Ligabue"
+      },
+      success: function success(data, stato) {
+        console.log(data);
+      },
+      error: function error(richiesta, stato, errori) {
+        alert("E' avvenuto un errore. ");
+      }
+    });
   });
 });
 

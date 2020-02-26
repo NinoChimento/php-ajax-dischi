@@ -28,5 +28,21 @@ alert("E' avvenuto un errore. ");
 $("select").change(function functionName() {
   var autore = $("select").val();
   console.log(autore);
+  $.ajax(
+{
+url: "http://localhost/php-ajax-dischi/database2.php",
+method: "GET",
+data : {
+  artist : "Ligabue"
+},
+success: function (data, stato) {
+  console.log(data);
+
+},
+error: function (richiesta, stato, errori) {
+  alert("E' avvenuto un errore. ");
+}
+}
+);
 })
 });
