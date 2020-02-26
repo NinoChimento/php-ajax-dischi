@@ -10,7 +10,7 @@
     include __DIR__ . "/database.php";
     foreach ($raccolta as $key => $value) {
 
-      if ($value["author"] == "Ligabue") {
+      if ($value["author"] == $filtroAutore) {
         var_dump($value["author"]);
         $cdFiltrati[] = $value;
         var_dump($cdFiltrati);
