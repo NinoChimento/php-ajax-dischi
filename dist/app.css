@@ -10,6 +10,19 @@ body {
   color: white;
 }
 
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar img {
+  width: 100px;
+}
+
 .wrap-cd {
   display: flex;
   flex-wrap: wrap;
@@ -34,9 +47,10 @@ body {
 }
 
 .cd img {
-  height: 60%;        
+  height: 60%;
   width: 80%;
   margin: auto;
   padding: 50px;
   padding-bottom: 0;
 }
+

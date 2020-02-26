@@ -7,11 +7,22 @@
     <title></title>
   </head>
   <body>
+    <header>
+      <div class="nav-bar">
+        <img class="logo" src="img/download.png" alt="spotify">
+        <div class="search">
+          <input type="text" name="artist" value="">
+          <button type="button" name="button">Cerca</button>
+        </div>
+      </div>
+
+    </header>
     <div class="wrap-cd">
 
     </div>
     <!-- template -->
     <script id="entry-template" type="text/x-handlebars-template">
+
       <div class="cd">
         <img src="{{poster}}" alt="">
         <h2>{{title}} </h2>

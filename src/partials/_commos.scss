@@ -8,6 +8,17 @@ body {
   background-color: grey;
   color: white;
 }
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    width: 100px;
+  }
+}
 .wrap-cd {
   display: flex;
   flex-wrap: wrap;
