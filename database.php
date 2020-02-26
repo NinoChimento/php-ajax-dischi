@@ -54,5 +54,6 @@ $raccolta = [
     'year' => 1985,
     'poster' => 'https://img.discogs.com/HSuP6Uqx1DYkX7V9h3o2cC_AV6o=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1549636-1265948094.jpeg.jpg'
   ],
-]
+];
+
  ?>

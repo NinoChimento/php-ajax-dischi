@@ -10706,7 +10706,18 @@ return jQuery;
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 $(document).ready(function () {
-  alert("N");
+  alert("n");
+  $.ajax({
+    url: "http://localhost/php-ajax-dischi/database2.php",
+    method: "GET",
+    success: function success(data, stato) {
+      console.log(data);
+      $("#risultati").html(data);
+    },
+    error: function error(richiesta, stato, errori) {
+      alert("E' avvenuto un errore. ");
+    }
+  });
 });
 
 /***/ }),
