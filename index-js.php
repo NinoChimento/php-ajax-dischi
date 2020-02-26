@@ -7,14 +7,16 @@
     <title></title>
   </head>
   <body>
+    <!-- <?php echo $_GET["artist"]; ?> -->
     <header>
       <div class="nav-bar">
         <img class="logo" src="img/download.png" alt="spotify">
         <div class="search">
-          <form class="" action="index-js.php" method="GET">
-            <input type="text" name="artist" value="">
-            <button type="submit" name="button">Cerca</button>
-          </form>
+            <!-- <input type="text" name="artist" value="">
+            <button type="submit" name="button">Cerca</button> -->
+            <select class="" name="">
+              <option value=""></option>
+            </select>
 
         </div>
       </div>
@@ -32,6 +34,9 @@
         <h4>{{author}}</h4>
         <h6>{{year}}</h6>
       </div>
+    </script>
+    <script id="autore" type="text/x-handlebars-template">
+      <option value="{{author}}">{{author}}</option>
     </script>
     <!-- //template -->
     <script src="dist/app.js" charset="utf-8"></script>
