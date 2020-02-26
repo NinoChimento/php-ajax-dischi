@@ -33,7 +33,7 @@ $("select").change(function functionName() {
 url: "http://localhost/php-ajax-dischi/database2.php",
 method: "GET",
 data : {
-  artist : "Ligabue"
+  artist : autore,
 },
 success: function (data, stato) {
   console.log(data);

@@ -10739,7 +10739,7 @@ $(document).ready(function () {
       url: "http://localhost/php-ajax-dischi/database2.php",
       method: "GET",
       data: {
-        artist: "Ligabue"
+        artist: autore
       },
       success: function success(data, stato) {
         console.log(data);

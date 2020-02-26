@@ -11,15 +11,10 @@
     foreach ($raccolta as $key => $value) {
 
       if ($value["author"] == $filtroAutore) {
-        var_dump($value["author"]);
         $cdFiltrati[] = $value;
-        var_dump($cdFiltrati);
-        // header('Content-Type: application/json');
-        // echo json_encode($raccolta);
       }
-      }
-
+    }
+    header('Content-Type: application/json');
+    echo json_encode($cdFiltrati);
   }
-  // header('Content-Type: application/json');
-  // echo json_encode($raccolta);
- ?>
+  ?>
