@@ -10710,7 +10710,6 @@ $(document).ready(function () {
     url: "http://localhost/php-ajax-dischi/database2.php",
     method: "GET",
     success: function success(data, stato) {
-      console.log(data);
       var source = $("#entry-template").html();
       var template = Handlebars.compile(source);
 
@@ -10733,8 +10732,8 @@ $(document).ready(function () {
       alert("E' avvenuto un errore. ");
     }
   });
-  $("button").click(function functionName() {
-    var autore = $("input").val();
+  $("select").change(function functionName() {
+    var autore = $("select").val();
     console.log(autore);
   });
 });
