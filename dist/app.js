@@ -10742,21 +10742,25 @@ $(document).ready(function () {
         artist: autore
       },
       success: function success(data, stato) {
-        var source = $("#entry-template").html();
-        var template = Handlebars.compile(source);
-
-        for (var i = 0; i < data.length; i++) {
-          var context = data[i];
-          var html = template(context);
-          $(".wrap-cd").append(html);
-        }
+        print(data);
       },
       error: function error(richiesta, stato, errori) {
         alert("E' avvenuto un errore. ");
       }
     });
   });
-});
+}); //  funzione stampa
+
+function print(data) {
+  var source = $("#entry-template").html();
+  var template = Handlebars.compile(source);
+
+  for (var i = 0; i < data.length; i++) {
+    var context = data[i];
+    var html = template(context);
+    $(".wrap-cd").append(html);
+  }
+}
 
 /***/ }),
 
