@@ -10734,7 +10734,7 @@ $(document).ready(function () {
   });
   $("select").change(function functionName() {
     var autore = $("select").val();
-    console.log(autore);
+    $(".wrap-cd").html(" ");
     $.ajax({
       url: "http://localhost/php-ajax-dischi/database2.php",
       method: "GET",
@@ -10742,7 +10742,6 @@ $(document).ready(function () {
         artist: autore
       },
       success: function success(data, stato) {
-        console.log(data.length);
         var source = $("#entry-template").html();
         var template = Handlebars.compile(source);
 

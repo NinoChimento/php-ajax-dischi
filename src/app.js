@@ -27,7 +27,7 @@ alert("E' avvenuto un errore. ");
 );
 $("select").change(function functionName() {
   var autore = $("select").val();
-  console.log(autore);
+  $(".wrap-cd").html(" ");
   $.ajax(
 {
 url: "http://localhost/php-ajax-dischi/database2.php",
@@ -36,7 +36,6 @@ data : {
   artist : autore,
 },
 success: function (data, stato) {
-  console.log(data.length);
   var source = $("#entry-template").html();
   var template = Handlebars.compile(source);
   for (var i = 0; i < data.length; i++) {
