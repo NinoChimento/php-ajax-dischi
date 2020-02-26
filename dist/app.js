@@ -10742,7 +10742,15 @@ $(document).ready(function () {
         artist: autore
       },
       success: function success(data, stato) {
-        console.log(data);
+        console.log(data.length);
+        var source = $("#entry-template").html();
+        var template = Handlebars.compile(source);
+
+        for (var i = 0; i < data.length; i++) {
+          var context = data[i];
+          var html = template(context);
+          $(".wrap-cd").append(html);
+        }
       },
       error: function error(richiesta, stato, errori) {
         alert("E' avvenuto un errore. ");
