@@ -34,9 +34,9 @@ body {
 }
 
 .cd img {
-  height: 300px;
+  height: 60%;        
+  width: 80%;
   margin: auto;
   padding: 50px;
   padding-bottom: 0;
 }
-
