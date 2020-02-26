@@ -18,8 +18,8 @@
         // echo json_encode($raccolta);
       }
       }
-    // header('Content-Type: application/json');
-    // echo json_encode($raccolta);
-  }
 
+  }
+  // header('Content-Type: application/json');
+  // echo json_encode($raccolta);
  ?>
