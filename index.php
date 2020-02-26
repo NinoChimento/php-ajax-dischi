@@ -22,6 +22,6 @@
       </div>
         <?php } ?>
     </div>
-    <script src="dist/app.js" charset="utf-8"></script>
+    <!-- <script src="dist/app.js" charset="utf-8"></script> -->
   </body>
 </html>

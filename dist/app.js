@@ -10703,9 +10703,11 @@ return jQuery;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"); // $(document).ready(function () {
-//   alert("N")
-// });
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+$(document).ready(function () {
+  alert("N");
+});
 
 /***/ }),
 
