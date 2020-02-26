@@ -11,8 +11,11 @@
       <div class="nav-bar">
         <img class="logo" src="img/download.png" alt="spotify">
         <div class="search">
-          <input type="text" name="artist" value="">
-          <button type="button" name="button">Cerca</button>
+          <form class="" action="index-js.php" method="GET">
+            <input type="text" name="artist" value="">
+            <button type="submit" name="button">Cerca</button>
+          </form>
+
         </div>
       </div>
 
